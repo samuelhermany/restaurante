@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'PoopinsMedium';
+    src: url('../fonts/Poppins-Medium.otf');
+}
+
+@font-face {
+    font-family: 'PoopinsRegular';
+    src: url('../fonts/Poppins-Regular.otf');
+}
+
+:root {
+    --color-background: #fffdf7;
+    --color-black: #212121;
+    --color-text: #4f4f4f;
+    --color--text-out: #90908e;
+    --color-primary: #ffbf00;
+    --color-secundary: #fff2cc;
+    --color--white: #ffffff;
+    --color--red: #e74c3c;
+    --color--green: #2ecc71;
+    --color--separete: #cccccc;
+}
+
+html,
+body {
+    font-family: 'PoppingsRegular', 'Rubik', sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+b {
+    font-family: 'PoppingsMedium', 'Rubik', sans-serif;
+}
+
+.nav-link {
+    color: var(--color-brack) !important;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+}
+
+.btn-white {
+    background-color: var(--color--white);
+    color: var(--color-black) !important;
+    border-radius: 20px;
+    padding: 15px 25px;
+    font-size: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
